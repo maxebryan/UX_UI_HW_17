@@ -1,0 +1,99 @@
+/* Background*/
+body{
+    background: #C9C9C9;
+}
+
+/*flex navbar*/
+#navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5%;
+    padding: 1%;
+    height: 100px;
+}
+#navBar h1{
+    display: flex;
+    justify-content: left;
+    width: 25%;
+}
+#navigation {
+    display: flex;
+    width: 75%;
+    justify-content:right;
+}
+#navigation p{
+    font-family: 'Fraiche';
+    font-style: normal;
+    font-size: 41px;
+    color: #FFFFFF;
+}
+
+/* The Hero img section */
+.heroimg{
+    height: 600px;
+    padding: 25px;
+}
+.content{
+    width: 500px;
+    margin: 0 auto;
+}
+.content img{
+    width: 300px;
+    height: 380px;
+    left: 282px;
+    top: 256px;
+}
+.content p{
+    font-family: 'Studio Feixen Sans TRIAL';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+.line1{
+    position: absolute;
+    width: 650px;
+    height: 195px;
+    left: 611px;
+    top: 166px;
+}
+.line2{
+    position: absolute;
+    width: 650px;
+    height: 195px;
+    left: 611px;
+    top: 200px;
+}
+
+button{
+    position: absolute;
+    left: 711px;
+    top: 250px;
+}
+/* The Footer */
+footer{
+    display: flex;
+    background-color: #373738;
+}
+footer>p{
+    display: flex;
+    margin: 1%;
+    width: 15%;
+    align-items: flex-start;
+    justify-content: center;
+
+    font-family: 'Fraiche';
+    font-style: normal;
+    font-size: 41px;
+    color: #FFFFFF;    
+}
+
+h1{
+    font-family: 'Fraiche';
+    font-style: normal;
+    font-size: 41px;
+    color: #FFFFFF;
+}
